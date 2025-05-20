@@ -5,55 +5,78 @@ body {
 }
 
 header {
-  background-color: #111;
+  background-color: #222;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 20px 0;
 }
 
 .produtos {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .produto {
-  border: 1px solid #ccc;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
+  background-color: #f9f9f9;
+  padding: 15px;
   border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .produto img {
   max-width: 100%;
-  height: auto;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .preco {
   display: block;
   margin: 10px 0;
   font-weight: bold;
+  color: green;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #28a745;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 16px;
+  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #218838;
 }
 
 footer {
-  background-color: #f1f1f1;
+  background-color: #eee;
   text-align: center;
   padding: 15px;
+  font-size: 14px;
+}
+
+/* 🔽 VERSÃO MOBILE */
+@media (max-width: 600px) {
+  .produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produto {
+    width: 90%;
+  }
+
+  header, footer {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
 }
