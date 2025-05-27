@@ -1,6 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
+  border: 25px solid transparent;
+  border-radius: 10px;
+  font-size: 16px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
