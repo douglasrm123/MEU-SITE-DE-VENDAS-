@@ -15,7 +15,7 @@ Este é um site simples de vendas feito com HTML, CSS e JavaScript. Ele apresent
 ## 🚀 Como ver o site
 
 Você pode acessar o site online aqui:  
-👉 [Clique para ver o site](https://douglasrm123.github.io/MEU-SITE-NOVO/)
+👉 [Clique para ver o site](https://douglasrm123.github.io/MEU-SITE-DE-VENDAS-/)
 
 ---
 
